@@ -4,7 +4,7 @@ import Button from '../../../components/base/Button';
 
 export default function LocationSection() {
   const openDirections = () => {
-    window.open('https://maps.google.com/?q=Strada+Aviatorilor+15,+București', '_blank');
+    window.open('https://maps.google.com/?q=Strada+Notariala+11,+Sector+4,+București', '_blank');
   };
 
   return (
@@ -65,8 +65,8 @@ export default function LocationSection() {
                       <div>
                         <p className="font-inter font-medium text-gray-700">Adresa</p>
                         <p className="text-gray-600 font-inter">
-                          Strada Aviatorilor nr. 15<br />
-                          Sector 1, București 011853<br />
+                          Strada Notarială nr. 11<br />
+                          Sector 4, București<br />
                           România
                         </p>
                       </div>
@@ -77,8 +77,8 @@ export default function LocationSection() {
                       <div>
                         <p className="font-inter font-medium text-gray-700">Telefon</p>
                         <p className="text-gray-600 font-inter">
-                          <a href="tel:+40212345678" className="hover:text-primary-500 transition-colors cursor-pointer">
-                            +40 21 234 5678
+                          <a href="tel:+40700000000" className="hover:text-primary-500 transition-colors cursor-pointer">
+                            070 000 000
                           </a>
                         </p>
                       </div>
@@ -89,8 +89,8 @@ export default function LocationSection() {
                       <div>
                         <p className="font-inter font-medium text-gray-700">Email</p>
                         <p className="text-gray-600 font-inter">
-                          <a href="mailto:contact@notarionescu.ro" className="hover:text-primary-500 transition-colors cursor-pointer">
-                            contact@notarionescu.ro
+                          <a href="mailto:notariat@notariatnotar.ro" className="hover:text-primary-500 transition-colors cursor-pointer">
+                            notariat@notariatnotar.ro
                           </a>
                         </p>
                       </div>
